@@ -2,20 +2,23 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Pic Carousel</title>
-	<link rel="stylesheet" href="Pic_carousel.css">
+	<title>Pic_carousel</title>
+	<link rel="stylesheet" type="text/css" href="Pic_carousel.css">
+	<script type="text/javascript" src='jquery.js'></script>
+	<script type="text/javascript" src='vue.min.js'></script>
 	<script type="text/javascript" src='Pic_carousel.js'></script>
 </head>
 <body>	
 	<div id="div1">
 	<div id="div2">	
-		<input type="button" value="循环播放" id="true">
-		<input type="button" value="顺序播放" id="false"><br>
-		<span id="p2">图片可循环轮转播放</span>
-		<span id="p3">图片只能到第一张or最后一张</span>
+		<input type="button" value="循环播放">
+		<input type="button" value="顺序播放"><br>
+		<span id="p2">当前轮播模式：{{message}}</span>
 	</div>
-		<a href="javascript:;" id="next">></a>
-		<a href="javascript:;" id="prev"><</a>
+		<div id="aA">
+			<a href="#" id="next">></a>
+			<a href="#" id="prev"><</a>
+		</div>
 		<span id="span1"></span>
 		<p id="p1"></p>
 		<img id="img1">

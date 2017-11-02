@@ -1,6 +1,6 @@
 	#div1{
 		width: 400px;
-		height: 450px;
+		height: 450px;		
 		background: #ccc;
 		margin: 0 auto;
 		border: 5px solid #000;
@@ -66,10 +66,4 @@
 	}
 	#true #false{
 		position: absolute;
-	}
-	#p3{
-		display: none;
-	}
-	#p2{
-		display: none;
 	}
